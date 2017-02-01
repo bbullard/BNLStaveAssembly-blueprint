@@ -182,6 +182,7 @@
 			<Item Name="ExamineImageCalibration.vi" Type="VI" URL="../Utils/ExamineImageCalibration.vi"/>
 			<Item Name="practiceImageAnalysis.vi" Type="VI" URL="../Analysis/practiceImageAnalysis.vi"/>
 			<Item Name="practiceImageAnalysis - HH.vi" Type="VI" URL="../Analysis/practiceImageAnalysis - HH.vi"/>
+			<Item Name="BusTapeFiducialAnalysis.vi" Type="VI" URL="../Analysis/BusTapeFiducialAnalysis.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -416,10 +417,14 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../Bin/Aerotech.A3200.LabVIEW.dll"/>
-			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../Bin/Aerotech.A3200.dll"/>
 			<Item Name="Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi" Type="VI" URL="../SubVIs/Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi"/>
 			<Item Name="KillPixelsOutsideCircularROI (SubVI).vi" Type="VI" URL="../SubVIs/KillPixelsOutsideCircularROI (SubVI).vi"/>
+			<Item Name="Aerotech.A3200.dll" Type="Document" URL="/C/Users/Aerotech/Documents/BNLStaveAssembly-blueprint/Bin/Aerotech.A3200.dll"/>
+			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="/C/Users/Aerotech/Documents/BNLStaveAssembly-blueprint/Bin/Aerotech.A3200.LabVIEW.dll"/>
+			<Item Name="Aerotech.A3200.dll" Type="Document" URL="/c/aerotech/controller/5.xx.xxx/A3200/pc/labview/2010/bin/Aerotech.A3200.dll"/>
+			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="/c/aerotech/controller/5.xx.xxx/A3200/pc/labview/2010/bin/Aerotech.A3200.LabVIEW.dll"/>
+			<Item Name="Aerotech.A3200.dll" Type="Document" URL="/C/Users/Aerotech/Desktop/BNL Stave Assembly/Bin/Aerotech.A3200.dll"/>
+			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="/C/Users/Aerotech/Desktop/BNL Stave Assembly/Bin/Aerotech.A3200.LabVIEW.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="A3200 LabVIEW Operator Interface" Type="EXE">
