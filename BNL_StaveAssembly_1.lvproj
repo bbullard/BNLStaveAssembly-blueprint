@@ -163,6 +163,7 @@
 				<Item Name="ChangeToStaveCoordinateFrame (SubVI).vi" Type="VI" URL="../SubVIs/ChangeToStaveCoordinateFrame (SubVI).vi"/>
 				<Item Name="Intensity-XY2rPhi (SubVI).vi" Type="VI" URL="../SubVIs/Intensity-XY2rPhi (SubVI).vi"/>
 				<Item Name="NormalizedIntensityVsRadius.vi" Type="VI" URL="../SubVIs/NormalizedIntensityVsRadius.vi"/>
+				<Item Name="GetCameraPOSinLab_bb (SubVI).vi" Type="VI" URL="../SubVIs/GetCameraPOSinLab_bb (SubVI).vi"/>
 			</Item>
 			<Item Name="Splitting Array(SubVI).vi" Type="VI" URL="../SubVIs/Splitting Array(SubVI).vi"/>
 			<Item Name="AverageOneCoord (SubVI).vi" Type="VI" URL="../SubVIs/AverageOneCoord (SubVI).vi"/>
@@ -186,6 +187,7 @@
 			<Item Name="practiceImageAnalysis - HH.vi" Type="VI" URL="../Analysis/practiceImageAnalysis - HH.vi"/>
 			<Item Name="BusTapeFiducialAnalysis.vi" Type="VI" URL="../Analysis/BusTapeFiducialAnalysis.vi"/>
 		</Item>
+		<Item Name="FindWorkingZDistance.vi" Type="VI" URL="../Top Level/FindWorkingZDistance.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -319,6 +321,7 @@
 				<Item Name="2DMathPlot Action String.vi" Type="VI" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Plot/Action String/2DMathPlot Action String.vi"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="2D Error Bar Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Error Bar/2D Error Bar Datatype/2D Error Bar Datatype.lvclass"/>
+				<Item Name="Search Line.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Search Line.ctl"/>
 			</Item>
 			<Item Name="EnableMultiple.vi" Type="VI" URL="../Motion/EnableMultiple.vi"/>
 			<Item Name="EnableSingle.vi" Type="VI" URL="../Motion/EnableSingle.vi"/>
@@ -427,6 +430,18 @@
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="/c/aerotech/controller/5.xx.xxx/A3200/pc/labview/2010/bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.dll" Type="Document" URL="/C/Users/Aerotech/Desktop/BNL Stave Assembly/Bin/Aerotech.A3200.dll"/>
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="/C/Users/Aerotech/Desktop/BNL Stave Assembly/Bin/Aerotech.A3200.LabVIEW.dll"/>
+			<Item Name="FitGaussian2 (SubVI).vi" Type="VI" URL="../SubVIs/FitGaussian2 (SubVI).vi"/>
+			<Item Name="FetchImageSet (SubVI).vi" Type="VI" URL="../Image Utilities/FetchImageSet (SubVI).vi"/>
+			<Item Name="FindSingleCircleEdge (SubVI).vi" Type="VI" URL="../Image Utilities/FindSingleCircleEdge (SubVI).vi"/>
+			<Item Name="ImageSubset2RPhiArray (SubVI).vi" Type="VI" URL="../Image Utilities/ImageSubset2RPhiArray (SubVI).vi"/>
+			<Item Name="NormalizedIntensityVsRadius (SubVI).vi" Type="VI" URL="../Top Level/NormalizedIntensityVsRadius (SubVI).vi"/>
+			<Item Name="ConfigureGausFitGuess (SubVI).vi" Type="VI" URL="../Top Level/ConfigureGausFitGuess (SubVI).vi"/>
+			<Item Name="FitGaussian2 (SubVI).vi" Type="VI" URL="../Top Level/FitGaussian2 (SubVI).vi"/>
+			<Item Name="GetCameraPOSinLab2 (SubVI).vi" Type="VI" URL="../Image Utilities/GetCameraPOSinLab2 (SubVI).vi"/>
+			<Item Name="ImageArray2File (SubVI).vi" Type="VI" URL="../Image Utilities/ImageArray2File (SubVI).vi"/>
+			<Item Name="FitParabola2 (SubVI).vi" Type="VI" URL="../Top Level/FitParabola2 (SubVI).vi"/>
+			<Item Name="FitLinear2 (SubVI).vi" Type="VI" URL="../Top Level/FitLinear2 (SubVI).vi"/>
+			<Item Name="DumpImageSet (SubVI).vi" Type="VI" URL="../Image Utilities/DumpImageSet (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="A3200 LabVIEW Operator Interface" Type="EXE">
